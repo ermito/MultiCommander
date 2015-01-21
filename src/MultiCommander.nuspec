@@ -9,14 +9,18 @@
     <authors>Mathias Svensson</authors>
     <owners>Mathias Svensson</owners>
     <summary>Multi Commander is a multi-tabbed file manager that is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
-    <description>Multi Commander has a everything you need in your daily works with files to make your work fast and efficient. It has all the standard features like a file manager has like copy, move, rename, view. But Multi Commanders big strength is the special features that allow you to do advanced task with ease. Like Auto-unpacking , Auto-sorting , Browse inside archives, registry and FTP, Search for file, View files and pictures and the Scripting support let you automate many task. And it allows you to do everything from the keyboard using shortcut so you can work fast and efficient.</description>
+    <description>Multi Commander has a everything you need in your daily works with files to make your work fast and efficient. 
+	
+	It has all the standard features like a file manager has like copy, move, rename, view. But Multi Commanders big strength is the special features that allow you to do advanced task with ease. Like Auto-unpacking , Auto-sorting , Browse inside archives, registry and FTP, Search for file, View files and pictures and the Scripting support let you automate many task. 
+	
+	And it allows you to do everything from the keyboard using shortcut so you can work fast and efficient.</description>
     <projectUrl>http://multicommander.com/</projectUrl>
     <tags>MultiCommander filemanager dual-panel commander</tags>
     <copyright>Mathias Svensson, Sweden</copyright>
     <licenseUrl>http://multicommander.com/news/multi-commander-now-free</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/MultiCommander.png</iconUrl>-->
+    <iconUrl>https://cdn.rawgit.com/ermito/MultiCommander/master/src/MultiCommander_0000.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
