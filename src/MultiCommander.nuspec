@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>MultiCommander</id>
+    <title>MultiCommander</title>
+    <version>4.6.2.1804</version>
+    <authors>Mathias Svensson</authors>
+    <owners>Mathias Svensson</owners>
+    <summary>Multi Commander is a multi-tabbed file manager that is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander has a everything you need in your daily works with files to make your work fast and efficient. It has all the standard features like a file manager has like copy, move, rename, view. But Multi Commanders big strength is the special features that allow you to do advanced task with ease. Like Auto-unpacking , Auto-sorting , Browse inside archives, registry and FTP, Search for file, View files and pictures and the Scripting support let you automate many task. And it allows you to do everything from the keyboard using shortcut so you can work fast and efficient.</description>
+    <projectUrl>http://multicommander.com/</projectUrl>
+    <tags>MultiCommander filemanager dual-panel commander</tags>
+    <copyright>Mathias Svensson, Sweden</copyright>
+    <licenseUrl>http://multicommander.com/news/multi-commander-now-free</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/MultiCommander.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
