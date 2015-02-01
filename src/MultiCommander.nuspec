@@ -3,9 +3,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>MultiCommander</id>
+    <id>multicommander</id>
     <title>MultiCommander</title>
-    <version>4.6.2.1804</version>
+    <version>5.0.0.1888</version>
     <authors>Mathias Svensson</authors>
     <owners>Mathias Svensson</owners>
     <summary>Multi Commander is a multi-tabbed file manager that is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
@@ -13,7 +13,14 @@
 	
 	It has all the standard features like a file manager has like copy, move, rename, view. But Multi Commanders big strength is the special features that allow you to do advanced task with ease. Like Auto-unpacking , Auto-sorting , Browse inside archives, registry and FTP, Search for file, View files and pictures and the Scripting support let you automate many task. 
 	
-	And it allows you to do everything from the keyboard using shortcut so you can work fast and efficient.</description>
+	And it allows you to do everything from the keyboard using shortcut so you can work fast and efficient.
+	
+	### Notes
+	
+	Silent installation is not supported. To prevent this problem, this package uses an AutoHotkey-script (thus the autohotkey.portable dependency) to click Next->Next->Next->Finish button.
+	
+	It installs MultiCommander only for the currently logged user (path: %APPDATA%\MultiCommander).
+	</description>
     <projectUrl>http://multicommander.com/</projectUrl>
     <tags>MultiCommander filemanager dual-panel commander</tags>
     <copyright>Mathias Svensson, Sweden</copyright>
@@ -21,9 +28,9 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
     <iconUrl>https://cdn.rawgit.com/ermito/MultiCommander/master/src/MultiCommander_0000.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
