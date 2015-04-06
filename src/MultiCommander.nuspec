@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>multicommander</id>
     <title>MultiCommander</title>
-    <version>5.0.0.1888</version>
+    <version>5.1.0.1922</version>
     <authors>Mathias Svensson</authors>
     <owners>Mathias Svensson</owners>
     <summary>Multi Commander is a multi-tabbed file manager that is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
