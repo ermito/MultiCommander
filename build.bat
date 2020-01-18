@@ -1,0 +1,1 @@
+choco pack src\MultiCommander.nuspec --outputdirectory build

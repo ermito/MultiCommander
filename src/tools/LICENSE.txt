@@ -3,7 +3,7 @@ From: http://multicommander.com/docs/License
 
 LICENSE
 
-This version (6.x) of Multi Commander can be used for free (without paying for a license)
+This version (9.x) of Multi Commander can be used for free (without paying for a license)
 for personal, commercial and government use.
 
 You are allowed to install this version of Multi Commander on multiple computers.
@@ -21,3 +21,4 @@ Using this software without proper knowledge of what you are doing could result 
 So always keep backups of important data.
 
 Mathias Svensson reserves the right to change this license in a future version in any way.
+
